@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>School-Management</title>
+        <link rel="stylesheet" href="Other/fontawesome.css">
+        <link rel="stylesheet" href="Other/solid.css">
+        <link rel="stylesheet" href="Other/all.css">
+        <link rel="stylesheet" href="Other/css/bootstrap.css">
+        <link rel="stylesheet" href="Other/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="Other/css/owl.theme.default.css">
+        <link rel="stylesheet" href="Other/animate/animate.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-wrapper">
+                <nav class="navbar navbar-expand-lg navigation-wrap">
+                    <div class="container">
+                        <a class="navbar-brand" href="#"><img src="image/logo.jpg" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Panels <i class="fa-solid fa-chevron-down text-dark"></i></a>
+                                    <ul type="none" class="drop-menu">
+                                        <li class="drop-behind"><a href="Login.html">Admin Panel</a></li>
+                                        <li class="drop-behind"><a href="Login.html">Teacher Panel</a></li>
+                                        <li class="drop-behind"><a href="Login.html">Student Panel</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admission.html">Admissinos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="course.html">Courses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div><!-- /.header-wrapper -->
+        </header>
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/hero_1.jpg" class="crousel_image d-block w-100" alt="">
+                    <div class="over_layer"></div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="carousel-heading pb-3">Academics University</h5>
+                        <!-- <p class="carousel-heading-p">Small business with big dreams</p> -->
+                        <a href="#" class="main_btn">Learn more</a>
+                    </div>
+                </div>
+        
+                <div class="carousel-item">
+                    <img src="image/hero_1.jpg" class="d-block w-100" alt="...">
+                    <div class="over_layer"></div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="carousel-heading pb-3">Academics University</h5>
+                        <a href="#" class="main_btn">Learn more</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/hero_1.jpg" class="d-block w-100" alt="...">
+                    <div class="over_layer"></div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="carousel-heading pb-3">Academics University</h5>
+                        <a href="#" class="main_btn">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="site-section my-5 pb-4">
+            <div class="container">
+                <div class="row mb-5 justify-content-center text-center">
+                    <div class="col-lg-4 mb-5">
+                        <h2 class="section-title-underline mb-5">
+                            <span>Why Academics Works</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                        <div class="feature-1 border">
+                            <div class="icon-wrapper bg-primary">
+                                <span class="flaticon-mortarboard text-white">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                </span>
+                            </div>
+                            <div class="feature-1-content">
+                                <h2>Personalize Learning</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
+                                <p><a href="#" class="btn btn-primary px-4 rounded-2">Learn More</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                        <div class="feature-1 border">
+                            <div class="icon-wrapper bg-primary">
+                                <span class="flaticon-school-material text-white">
+                                    <i class="fa-solid fa-laptop"></i>
+                                </span>
+                            </div>
+                            <div class="feature-1-content">
+                                <h2>Trusted Courses</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
+                                <p><a href="#" class="btn btn-primary px-4 rounded-2">Learn More</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                        <div class="feature-1 border">
+                            <div class="icon-wrapper bg-primary">
+                                <span class="flaticon-library text-white">
+                                    <i class="fa-solid fa-building-columns"></i>
+                                </span>
+                            </div>
+                            <div class="feature-1-content">
+                                <h2>Tools for Students</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
+                                <p><a href="#" class="btn btn-primary px-4 rounded-2">Learn More</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="site-section">
+            <div class="container">
+                <div class="row mb-5 justify-content-center text-center">
+                    <div class="col-lg-6 mb-5">
+                        <h2 class="section-title-underline mb-3">
+                            <span>Popular Courses</span>
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, id?</p>
+                    </div>
+                    <div class="owl-carousel owl-theme owl-loaded">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage">
+                                <div class="owl-item">
+                                    <div class="test-text">
+                                        <div class="card feature-card">
+                                            <img src="image/course_1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <p class="card-title pt-0 pb-0"><a href="#">Web Desing</a></p>
+                                                <h6 class="card-text pt-0 pb-0">Lorem, ipsum dolor.</h6>
+                                                <ul class="d-flex star-icon">
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body card-footer-price">
+                                                <h4>$78</h4>
+                                                <button class="btn-primary btn">Enroll in this course</button>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="owl-item">
+                                    <div class="test-text">
+                                        <div class="card feature-card">
+                                            <img src="image/course_1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <p class="card-title pt-0 pb-0"><a href="#">Web Desing</a></p>
+                                                <h6 class="card-text pt-0 pb-0">Lorem, ipsum dolor.</h6>
+                                                <ul class="d-flex star-icon">
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body card-footer-price">
+                                                <h4>$78</h4>
+                                                <button class="btn-primary btn">Enroll in this course</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="owl-item">
+                                    <div class="test-text">
+                                        <div class="card feature-card">
+                                            <img src="image/course_1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <p class="card-title pt-0 pb-0"><a href="#">Web Desing</a></p>
+                                                <h6 class="card-text pt-0 pb-0">Lorem, ipsum dolor.</h6>
+                                                <ul class="d-flex star-icon">
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body card-footer-price">
+                                                <h4>$78</h4>
+                                                <button class="btn-primary btn">Enroll in this course</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                            <div class="owl-item">
+                                <div class="test-text">
+                                    <div class="card feature-card">
+                                        <img src="image/course_1.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-title pt-0 pb-0"><a href="#">Web Desing</a></p>
+                                            <h6 class="card-text pt-0 pb-0">Lorem, ipsum dolor.</h6>
+                                            <ul class="d-flex star-icon">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                        <div class="card-body card-footer-price">
+                                            <h4>$78</h4>
+                                            <button class="btn-primary btn">Enroll in this course</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                                <div class="owl-item">
+                                    <div class="test-text">
+                                        <div class="card feature-card">
+                                            <img src="image/course_1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <p class="card-title pt-0 pb-0"><a href="#">Web Desing</a></p>
+                                                <h6 class="card-text pt-0 pb-0">Lorem, ipsum dolor.</h6>
+                                                <ul class="d-flex star-icon">
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body card-footer-price">
+                                                <h4>$78</h4>
+                                                <button class="btn-primary btn">Enroll in this course</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="owl-item">
+                                    <div class="test-text">
+                                        <div class="card feature-card">
+                                            <img src="image/course_1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <p class="card-title pt-0 pb-0"><a href="#">Web Desing</a></p>
+                                                <h6 class="card-text pt-0 pb-0">Lorem, ipsum dolor.</h6>
+                                                <ul class="d-flex star-icon">
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body card-footer-price">
+                                                <h4>$78</h4>
+                                                <button class="btn-primary btn">Enroll in this course</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="owl-item">
+                                    <div class="test-text">
+                                        <div class="card feature-card">
+                                            <img src="image/course_1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <p class="card-title pt-0 pb-0"><a href="#">Web Desing</a></p>
+                                                <h6 class="card-text pt-0 pb-0">Lorem, ipsum dolor.</h6>
+                                                <ul class="d-flex star-icon">
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body card-footer-price">
+                                                <h4>$78</h4>
+                                                <button class="btn-primary btn">Enroll in this course</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="about-university" id="about-university">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-12">
+                        <h2 class="about-heading text-light">About Our University</h2>
+                    </div>
+                    <div class="col-lg-7 col-12">
+                        <p class="text-light about-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat recusandae esse obcaecati, rerum eius animi rem inventore doloremque ipsa minima, ratione error voluptatum beatae vitae dolores sequi alias ex assumenda ab atque. Aspernatur amet fugiat impedit incidunt officiis expedita nostrum facere quo modi repudiandae. Consequuntur minus rerum culpa inventore animi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione recusandae ipsam eveniet maxime quae! Repellendus maxime magnam magni quo tenetur.</p>
+                        <button class="btn-primary btn">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial" id="testimonial">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-4">
+                        <h2 class="section-title-underline pb-5">
+                            <span>Testimonials</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="owl-carousel owl-theme owl-loaded">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage">
+                            <div class="owl-item">
+                                <div class="test-text">
+                                    <div class="card testimonial-card">
+                                        <div class="image-name-title d-flex">
+                                            <img src="image/person_1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h6 class="card-text pt-0 pb-0">Alison Homeles</h6>
+                                                <p class="card-title pt-0 pb-0"><a href="#">Web Designer</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="card-body card-footer-price">
+                                            <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quod et fugiat, deserunt tempora Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, necessitatibus.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="owl-item">
+                                <div class="test-text">
+                                    <div class="card testimonial-card">
+                                        <div class="image-name-title d-flex">
+                                            <img src="image/person_2.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h6 class="card-text pt-0 pb-0">Alison Homeles</h6>
+                                                <p class="card-title pt-0 pb-0"><a href="#">Web Designer</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="card-body card-footer-price">
+                                            <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quod et fugiat, deserunt tempora Lorem
+                                                ipsum dolor sit amet consectetur adipisicing elit. Numquam, necessitatibus.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="test-text">
+                                    <div class="card testimonial-card">
+                                        <div class="image-name-title d-flex">
+                                            <img src="image/person_3.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h6 class="card-text pt-0 pb-0">Alison Homeles</h6>
+                                                <p class="card-title pt-0 pb-0"><a href="#">Web Designer</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="card-body card-footer-price">
+                                            <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quod et fugiat, deserunt tempora Lorem
+                                                ipsum dolor sit amet consectetur adipisicing elit. Numquam, necessitatibus.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="test-text">
+                                    <div class="card testimonial-card">
+                                        <div class="image-name-title d-flex">
+                                            <img src="image/person_4.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h6 class="card-text pt-0 pb-0">Alison Homeles</h6>
+                                                <p class="card-title pt-0 pb-0"><a href="#">Web Designer</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="card-body card-footer-price">
+                                            <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quod et fugiat, deserunt tempora Lorem
+                                                ipsum dolor sit amet consectetur adipisicing elit. Numquam, necessitatibus.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service" id="service">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-12">
+                        <div class="service-icone">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="">Our philospy</h3>
+                        <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam dicta unde laudantium quaerat cupiditate accusantium vel modi magni eaque repellat!</p>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <div class="service-icone">
+                            <i class="fa-solid fa-laptop"></i>
+                        </div>
+                        <h3 class="">Academics Principle</h3>
+                        <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam dicta unde laudantium quaerat
+                            cupiditate accusantium vel modi magni eaque repellat!</p>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <div class="service-icone">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </div>
+                        <h3 class="">Key of success</h3>
+                        <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam dicta unde laudantium quaerat
+                            cupiditate accusantium vel modi magni eaque repellat!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="subscribe">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <h2 class="text-light">Subscribe to us!</h2>
+                        <p class="text-light">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,</p>
+                    </div>
+                    <div class="col-lg-5">
+                        <form action="" class="d-flex">
+                            <input type="text" class="rounded form-control mr-2 py-3" placeholder="Enter your email">
+                            <button class="btn btn-primary rounded py-3 px-4" type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <p class="mb-4"><img src="image/logo.png" alt="Image" class="img-fluid"></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>
+                        <p class="footer-learn"><a href="#">Learn More</a></p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3 class="footer-heading"><span>Our Campus</span></h3>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Acedemic</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Our Interns</a></li>
+                            <li><a href="#">Our Leadership</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Human Resources</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3 class="footer-heading"><span>Our Courses</span></h3>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Math</a></li>
+                            <li><a href="#">Science &amp; Engineering</a></li>
+                            <li><a href="#">Arts &amp; Humanities</a></li>
+                            <li><a href="#">Economics &amp; Finance</a></li>
+                            <li><a href="#">Business Administration</a></li>
+                            <li><a href="#">Computer Science</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3 class="footer-heading"><span>Contact</span></h3>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Support Community</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Share Your Story</a></li>
+                            <li><a href="#">Our Supporters</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="footer-copy">
+                        <div class="copy-right pt-4 text-center">
+                            <p class="text-light">Copyright © 2023 by Rayhan | All Right Reserve .</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+    <script src="other/jss/jquery-3.6.1.min.js"></script>
+    <script src="other/jss/owl.carousel.min.js"></script>
+    <script src="other/jss/bootstrap.js"></script>
+    <script src="other/jss/counterup/jquery.counterup.min.js"></script>
+    <script src="other/jss/waypoint/jquery.waypoints.js"></script>
+    <script src="other/jss/wow/wow.min.js"></script>
+    <script src="other/jss/script.js"></script>
+    </body>
+</html>
